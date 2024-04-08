@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.10.2)  5 APR 2024 03:53
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.10.2)  8 APR 2024 21:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -789,24 +789,25 @@ Requested font "cmr6" at 6.0pt
 
 ] [2]
 LaTeX Font Info:    Font shape `TU/TeXGyrePagellaX(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 134.
+(Font)              scaled to size 10.0pt on input line 121.
 Requested font "[TeXGyrePagellaX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 10.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/newpx/TeXGyrePagellaX-Regular.otf
 LaTeX Font Info:    Font shape `TU/TeXGyrePagellaX(0)/m/it' will be
-(Font)              scaled to size 10.95pt on input line 149.
+(Font)              scaled to size 10.95pt on input line 136.
 Requested font "[TeXGyrePagellaX-Italic.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 10.95pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/newpx/TeXGyrePagellaX-Italic.otf
- [3]
-Underfull \hbox (badness 10000) in paragraph at lines 162--164
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--151
 
  []
 
+[3]
 LaTeX Font Info:    Font shape `TU/TeXGyrePagellaX(0)/m/n' will be
-(Font)              scaled to size 7.0pt on input line 184.
+(Font)              scaled to size 7.0pt on input line 171.
 Requested font "[TeXGyrePagellaX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 7.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/newpx/TeXGyrePagellaX-Regular.otf
 LaTeX Font Info:    Font shape `TU/TeXGyrePagellaX(0)/m/n' will be
-(Font)              scaled to size 5.0pt on input line 184.
+(Font)              scaled to size 5.0pt on input line 171.
 Requested font "[TeXGyrePagellaX-Regular.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 5.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/newpx/TeXGyrePagellaX-Regular.otf
 Requested font "cmex7" at 7.0pt
@@ -825,34 +826,34 @@ Requested font "msbm7" at 7.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 Requested font "msbm5" at 5.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-[4] [5]
-Overfull \hbox (7.6772pt too wide) in paragraph at lines 289--290
+ [4] [5]
+Overfull \hbox (7.6772pt too wide) in paragraph at lines 276--277
 []\TU/TeXGyrePagellaX(0)/b/n/10.95 Principal Component Analysis \TU/TeXGyrePagellaX(0)/m/n/10.95 can identify multiple orthogonal dimensions which captures a broader
  []
 
 [6] [7]
 LaTeX Font Info:    Font shape `TU/TeXGyrePagellaX(0)/b/n' will be
-(Font)              scaled to size 8.0pt on input line 311.
+(Font)              scaled to size 8.0pt on input line 298.
 Requested font "[TeXGyrePagellaX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 8.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/newpx/TeXGyrePagellaX-Bold.otf
 LaTeX Font Info:    Font shape `TU/TeXGyrePagellaX(0)/b/n' will be
-(Font)              scaled to size 6.0pt on input line 311.
+(Font)              scaled to size 6.0pt on input line 298.
 Requested font "[TeXGyrePagellaX-Bold.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;mapping=tex-text;" at 6.0pt
  -> /usr/local/texlive/2022/texmf-dist/fonts/opentype/public/newpx/TeXGyrePagellaX-Bold.otf
 File: imgs/decodebinary.jpg Graphic file (type bmp)
 <imgs/decodebinary.jpg>
 
-Underfull \hbox (badness 10000) in paragraph at lines 337--340
+Underfull \hbox (badness 10000) in paragraph at lines 324--327
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 350--352
+Underfull \hbox (badness 10000) in paragraph at lines 337--339
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 369--372
+Underfull \hbox (badness 10000) in paragraph at lines 356--359
 
  []
 
@@ -860,7 +861,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 369--372
 Here is how much of TeX's memory you used:
  28849 strings out of 476179
  759011 string characters out of 5809544
- 1313754 words of memory out of 5000000
+ 1313755 words of memory out of 5000000
  49090 multiletter control sequences out of 15000+600000
  478788 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191

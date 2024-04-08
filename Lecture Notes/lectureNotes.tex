@@ -46,57 +46,44 @@
 \end{enumerate}
 \noindent \textbf{Receptive fields}: Specific region or sensory space in which a stimulus can incur an electrical response in a sensory neuron.
 
-(1) Descriptive
-\begin{itemize}
-    \item How visual information is received: visual information$\rightarrow$ retina (ganglion cells)$\rightarrow$ lateral geniculate nucleus (LGN)$\rightarrow$ primary visual cortex (v1)
-    \begin{center}
-        \begin{tikzpicture}
-            \draw (0, 0) circle (1.3cm);
-            \draw (0, 0) circle (0.6cm);
-            \node[] at (0, 0) {+};
-            \node[] at (0, 0.95) {-};
-            \node[] at (0, -0.95) {-};
-            \node[] at (0, -1.7) {center-on, surround-off};
-            \draw[rotate=30] (4, -2.2) ellipse (1.5cm and 1cm);
-            \draw[rotate=30] (4, -2.2) ellipse (1.5cm and 0.5cm);
-            \node[] at (4.5, 0) {+};
-            \node[] at (4.2, 0.7) {-};
-            \node[] at (4.8, -0.7) {-};
-            \node[] at (4.5, -1.7) {ellipse-shaped};
-        \end{tikzpicture}
-    \end{center}
-    \item The receptive fields are modeled by \textbf{reverse correlation}.
-\end{itemize}
-
-(2) Mechanistic: How are receptive fields constructed? (from LGN to primary visual cortex)
-\begin{itemize}
-    \item Hubel \& Wiesel: v1 RFs are constructed from converging LGN inputs
-    \begin{center}
-        \centering
-        \begin{tikzpicture}
-            \tikzstyle{every node}=[font=\normalsize]
-            \node [font=\normalsize] at (2.5,11.75) {LGN};
-            \node [font=\normalsize] at (6,11.75) {v1 cell};
-            \draw (3,11.75) .. controls (4.25,11.75) and (4.25,11.75) .. (5.25,11.75);
-            \draw (3,12.25) .. controls (4.25,12) and (4.25,12) .. (5.25,11.75);
-            \draw (3,11.25) .. controls (4.25,11.5) and (4.25,11.5) .. (5.25,11.75);
-            \draw (3,10.75) .. controls (4.25,11.25) and (4.25,11.25) .. (5.25,11.75);
-            \draw (3,12.75) .. controls (4.25,12.25) and (4.25,12.25) .. (5.25,11.75);
-        \end{tikzpicture}
-    \end{center}
-    \item \textcolor{Blue}{\textbf{Controversial}}: The hypothesis does not take into account other recurrent inputs
-\end{itemize}
-
-(3) Descriptive: Why do we need receptive fields?
-\begin{itemize}
-    \item \textcolor{Blue}{\textbf{Efficient Coding Hypothesis}}: the brain's goal is to represent images as faithfully and efficiently as possible using receptive fields. Let $RF_i$ denote the $i$th receptive field:
-    \begin{align*}
-        &\hat{I} = \sum_{i=1}^N RF_i\omega_i\\
-        &\min \ \frac{1}{N}\sum_{i=1}^N (\hat{I}-I)^2
-    \end{align*}
-    Our brain adjusts the weights regarding each receptive field $\omega_i$ to minimize mean square error.
-    \item Efficient coding algorithms: sparse coding, ICA, predictive coding; starting with random $RF_i$ and run until convergence.
-\end{itemize}
+\begin{enumerate}
+    \item Descriptive
+    \begin{itemize}
+        \item How visual information is received: visual information$\rightarrow$ retina (ganglion cells)$\rightarrow$ lateral geniculate nucleus (LGN)$\rightarrow$ primary visual cortex (v1)
+        \begin{center}
+            \begin{tikzpicture}
+                \draw (0, 0) circle (1.3cm);
+                \draw (0, 0) circle (0.6cm);
+                \node[] at (0, 0) {+};
+                \node[] at (0, 0.95) {-};
+                \node[] at (0, -0.95) {-};
+                \node[] at (0, -1.7) {center-on, surround-off};
+                \draw[rotate=30] (4, -2.2) ellipse (1.5cm and 1cm);
+                \draw[rotate=30] (4, -2.2) ellipse (1.5cm and 0.5cm);
+                \node[] at (4.5, 0) {+};
+                \node[] at (4.2, 0.7) {-};
+                \node[] at (4.8, -0.7) {-};
+                \node[] at (4.5, -1.7) {ellipse-shaped};
+            \end{tikzpicture}
+        \end{center}
+        \item The receptive fields are modeled by \textbf{reverse correlation}.
+    \end{itemize}
+    \item Mechanistic: How are receptive fields constructed? (from LGN to primary visual cortex)
+    \begin{itemize}
+        \item Hubel \& Wiesel: v1 RFs are constructed from converging LGN inputs
+        \item \textcolor{Blue}{\textbf{Controversial}}: The hypothesis does not take into account other recurrent inputs
+    \end{itemize}
+    \item Descriptive: Why do we need receptive fields?
+    \begin{itemize}
+        \item \textcolor{Blue}{\textbf{Efficient Coding Hypothesis}}: the brain's goal is to represent images as faithfully and efficiently as possible using receptive fields. Let $RF_i$ denote the $i$th receptive field:
+        \begin{align*}
+            &\hat{I} = \sum_{i=1}^N RF_i\omega_i\\
+            &\min \ \frac{1}{N}\sum_{i=1}^N (\hat{I}-I)^2
+        \end{align*}
+        Our brain adjusts the weights regarding each receptive field $\omega_i$ to minimize mean square error.
+        \item Efficient coding algorithms: sparse coding, ICA, predictive coding; starting with random $RF_i$ and run until convergence.
+    \end{itemize}
+\end{enumerate}
 
 \subsection{Neurobiology Fundamentals}
 \noindent \textbf{The Neuron Doctrine}
@@ -430,4 +417,10 @@ which is exactly the spike-triggered average (described in previous sections wei
 \newpage
 \section{Information Theory}
 
+\subsection{Entropy and Information}
+information and entropy, mutual information, kullback-leiber divergence
+\subsection{Computing Information for Spike Trains}
+spike patterns, single spikes
+\subsection{Information and Coding Principles}
+coding efficiency, adaptation to stimulus stats, sparse coding
 \end{document}
