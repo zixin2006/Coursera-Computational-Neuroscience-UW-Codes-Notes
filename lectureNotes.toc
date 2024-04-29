@@ -1,0 +1,25 @@
+\contentsline {section}{\numberline {1}Course Introduction and Basic Neurobiology}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Descriptive, Mechanistic and Interpretive Models}{2}{}%
+\contentsline {subsection}{\numberline {1.2}Neurobiology Fundamentals}{2}{}%
+\contentsline {subsubsection}{\numberline {1.2.1}Action Potential}{3}{}%
+\contentsline {subsubsection}{\numberline {1.2.2}Synapses}{3}{}%
+\contentsline {subsubsection}{\numberline {1.2.3}Brain Areas, Networking and Functions}{4}{}%
+\contentsline {section}{\numberline {2}Neural Encoding Models}{5}{}%
+\contentsline {subsection}{\numberline {2.1}The Neural Code}{5}{}%
+\contentsline {subsection}{\numberline {2.2}Basic Encoding Models}{5}{}%
+\contentsline {subsubsection}{\numberline {2.2.1}Feature Selection}{6}{}%
+\contentsline {subsubsection}{\numberline {2.2.2}Introducing Variability}{7}{}%
+\contentsline {section}{\numberline {3}Neural Decoding Models}{8}{}%
+\contentsline {subsection}{\numberline {3.1}Single Neuron Decoding and Signal Detection Theory}{8}{}%
+\contentsline {subsection}{\numberline {3.2}Population Coding and Maximum Likelihood Estimation}{9}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}Maximum Likelihood Estimation (MAP)}{9}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}Maximum A Posteriori Estimation (MAP)}{10}{}%
+\contentsline {subsubsection}{\numberline {3.2.3}Bayesian Estimation}{10}{}%
+\contentsline {section}{\numberline {4}Information Theory}{11}{}%
+\contentsline {subsection}{\numberline {4.1}Entropy and Information}{11}{}%
+\contentsline {subsubsection}{\numberline {4.1.1}Fundamentals}{11}{}%
+\contentsline {subsubsection}{\numberline {4.1.2}Mutual Information and Kullback-Leiber Divergence}{11}{}%
+\contentsline {subsection}{\numberline {4.2}Computing Information for Spike Trains}{12}{}%
+\contentsline {subsection}{\numberline {4.3}Coding Principles}{12}{}%
+\contentsline {section}{\numberline {5}Summary I}{14}{}%
+\contentsline {section}{\numberline {6}Computing in Carbon}{14}{}%
