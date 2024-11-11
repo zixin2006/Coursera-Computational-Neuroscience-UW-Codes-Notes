@@ -4,5 +4,5 @@ The `Lecture Notes` directory contains detailed notes for each lecture. These no
 
 ## Continuous Updates
 
-This repository will be continuously updated in one month. 
+This repository will be continuously updated.
 
